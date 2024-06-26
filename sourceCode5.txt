@@ -1,0 +1,48 @@
+package Test;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import com.surveillance.Test.BaseTest;
+import com.surveillance.utilitiy.GenericKeywordsWithPage;
+import com.surveillance.utilitiy.PropertySingleton;
+
+import Page.FaceBookPage;
+
+public class FaceBookTest extends BaseTest
+{
+
+	FaceBookPage page;
+	SoftAssert s_assert = new SoftAssert();
+	PropertySingleton _instance = null;
+
+
+	public FaceBookTest() throws Throwable 
+	{
+		_instance = PropertySingleton.getInstance();
+		page = new FaceBookPage(GenericKeywordsWithPage.driver);
+	}
+	@BeforeClass
+	public void startReport()
+	{
+		beforeClassForChild(this);
+
+	}
+
+	@Test
+	public void Menutest1() throws Throwable 
+	{
+		extentLoggerECP = parentExtentLogger.createNode("Home Page Test");
+		page = new FaceBookPage(GenericKeywordsWithPage.driver);
+		page.enterUserName("Prasad");
+	    page.enterPassword("12345");
+	    page.clickLogin();
+		s_assert.assertAll();
+
+
+	}
+
+
+
+}
