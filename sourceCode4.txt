@@ -5,10 +5,9 @@
 		
 		WebDriver driver=new ChromeDriver();
 		driver.get("file:///C:/Users/DELL/Downloads/FileUploadDemo1.html");
+		driver.manage().window().maximize;
 		driver.findElement(By.xpath("//input[@id='RBG']")).sendKeys("C:\\Users\\DELL\\Pictures\\Screenshots\\Screenshot 2024-05-27 122742.png");
 		driver.findElement(By.xpath("//input[@id='RBG']")).sendKeys("C:\\Users\\DELL\\Pictures\\Screenshots\\Screenshot 2024-05-27 122742.png").click();
-	driver.manage().window().minimize;
-
-
+	
 }
 	}
