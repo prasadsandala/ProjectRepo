@@ -5,5 +5,5 @@ import java.io.IOException;
 	WebDriver driver=new ChromeDriver();
 	driver.get("file:///C:/Users/DELL/Downloads/FileUploadDemo1.html");
 	driver.manage().window().maximize;
-driver.manage().window().minimize;
+
 system.out.println("L");
