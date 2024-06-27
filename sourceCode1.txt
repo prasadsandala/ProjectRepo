@@ -6,3 +6,4 @@ import java.io.IOException;
 	driver.get("file:///C:/Users/DELL/Downloads/FileUploadDemo1.html");
 789456;
 789;
+98765;
