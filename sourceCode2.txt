@@ -2,3 +2,4 @@ WebDriver driver = new ChromeDriver();
 driver.findElement(By.xpath("//input[@id='RBG']")).click();		
 		Runtime.getRuntime().exec("C:\\Users\\DELL\\Desktop\\AutoIt\\AutoItDemo1.exe");
 		System.out.println("Done");
+driver.manage().window().minimize;
