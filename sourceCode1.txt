@@ -4,6 +4,12 @@ import java.io.IOException;
 
 	WebDriver driver=new ChromeDriver();
 	driver.get("file:///C:/Users/DELL/Downloads/FileUploadDemo1.html");
+<<<<<<< HEAD
 789456;
 789;
 98765;
+=======
+	driver.manage().window().maximize;
+
+system.out.println("L");
+>>>>>>> newbranch1
