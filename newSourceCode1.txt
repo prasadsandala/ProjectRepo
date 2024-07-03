@@ -9,6 +9,8 @@ public static void main (String[] args)
 	WebElement userName = driver.findElement(By.xpath("//input[@id='email']");
 	WebElement password = driver.findElement(By.xpath("//input[@id='pass']");
 
+	userName.sendkeys("rbg");
+	password.sendkeys("123456789");
 
 }
 }
