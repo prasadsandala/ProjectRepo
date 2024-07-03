@@ -1,15 +1,12 @@
 
 		WebDriver driver=new ChromeDriver()
 		driver.get("file:///C:/Users/DELL/Downloads/FileUploadDemo2.html");
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 		driver.findElement(By.xpath("//input[@id='RBG']")).sendKeys("C:\\Users\\DELL\\Pictures\\Screenshots\\Screenshot 2024-05-27 122742.png");
 system.out.println("done");
-=======
+
 		webElement element = driver.findElement(By.xpath("//input[@id='RBG']"));
 		String send_data ="C:\\Users\\DELL\\Pictures\\Screenshots\\Screenshot 2024-05-27 122742.png";
 		element.dendkeys(send_data);
->>>>>>> 2d97cc7 (updating sourcecode3 file)
-=======
+
 		driver.findElement(By.xpath("//input[@id='RBG']")).sendKeys("C:\\Users\\DELL\\Pictures\\Screenshots\\Screenshot 2024-05-27 122742.png");
->>>>>>> f919366 (Update sourceCode3.txt)
