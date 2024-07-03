@@ -38,11 +38,13 @@ public class FaceBookTest extends BaseTest
 		page.enterUserName("Prasad");
 	    page.enterPassword("12345");
 	    page.clickLogin();
-		s_assert.assertAll();
 
+		s_assert.assertAll();
 
 	}
 
 
 
+}
+}
 }
