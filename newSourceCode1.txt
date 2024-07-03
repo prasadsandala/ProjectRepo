@@ -1,0 +1,14 @@
+public class newSourceCode1
+{
+public static void main (String[] args)
+{ 
+	WebDreiver driver = new ChromeDriver();
+	driver.get("https://www.facebook.com/login/");
+	driver.manage().window().maximize();
+
+	WebElement userName = driver.findElement(By.xpath("//input[@id='email']");
+	WebElement password = driver.findElement(By.xpath("//input[@id='pass']");
+
+
+}
+}
